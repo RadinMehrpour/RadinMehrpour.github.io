@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+}
+.row1{
+    height: 76.4px;
+    img{
+        width: 82px; height: 54px;
+    }
+    ul{
+        li{
+            height: 76.4px;
+            transition: all 0s linear 100ms;
+            &:hover{
+                border-bottom: solid 3px #222;
+                transform: scaleX(1);
+            }
+        }
+    }
+}
+.bg{
+    font-size: 20px;
+}
+.hov{
+    line-height: 80px;
+}
+.hov:hover span{
+    border-bottom: solid 2px black;
+}
+.gd{
+    font-size: 19px;
+}
+.hov2:hover{
+    border-bottom: solid 2px black;
+}
+.row3{
+    height: 80px;
+    background-color: #ECECEC;
+}
+.hov3{
+    transition: normal 0.5s ease 0s ;
+    transition-property: transform;
+    transform-origin: center;
+    overflow:hidden
+}
+.hov3:hover{
+    background-color: #ECECEC;
+}
+.hov3:hover img{
+    transform: scale(1.08);
+}
+.longimg{
+    width: 351px;
+}
+.height-problem{
+    height: fit-content;
+}
