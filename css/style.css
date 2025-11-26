@@ -42,15 +42,33 @@
     transform-origin: center;
     overflow:hidden
 }
-.hov3:hover{
+h5{
+    margin-bottom: 0px;
+}
+.hov3:hover h5{
+    background-color: #ECECEC;
+}
+.hov3:hover p{
     background-color: #ECECEC;
 }
 .hov3:hover img{
     transform: scale(1.08);
 }
-.longimg{
-    width: 351px;
+.hov4{
+    transition: normal 0.5s ease 0s ;
+    transition-property: transform;
+    transform-origin: center;
+    overflow:hidden
 }
-.height-problem{
-    height: fit-content;
+.hov4:hover{
+    background-color: #ECECEC;
+}
+.hov4:hover img{
+    transform: scale(1.03);
+}
+.row12{
+    background-color: #FAFAFA;  
+}
+.row12 img{
+    width: 100px; height: 100px;
 }
