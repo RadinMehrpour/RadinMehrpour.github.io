@@ -23,6 +23,12 @@
 .hov{
     line-height: 80px;
 }
+.texthov{
+    color: #696969;
+}
+.texthov:hover{
+    color: #222;
+}
 .hov:hover span{
     border-bottom: solid 2px black;
 }
@@ -71,4 +77,25 @@ h5{
 }
 .row12 img{
     width: 100px; height: 100px;
+}
+.hov5{
+    transition: all ease 300ms 0s;
+}
+.hov5:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.row13 i {
+    font-size: 30px;
+}
+.row13 a:hover p{
+    border-bottom: solid 2px #222;
+}
+.rgba-bg{
+    color: #222;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.rgba-bg:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
 }
