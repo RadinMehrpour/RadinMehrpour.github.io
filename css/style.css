@@ -99,3 +99,54 @@ h5{
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
 }
+.row15{
+    background-color: #ECECEC;
+}
+.footer-text{
+    color: #696969;
+}
+.hov6:hover span{
+    border-bottom: solid 2px #696969;
+}
+.global{
+    width: 16px; height: 16px;
+}
+.row15 i{
+    color: #696969;
+    font-size: 16px;
+}
+.media{
+    width: 37px; height: 37px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+}
+.media:hover{
+    background-color: white;
+}
+.row16{
+    background-color: #ECECEC;
+}
+.row16 a, .row16 p{
+    color: #696969;
+}
+.customfont{
+    font-size: 18px;
+}
+.customcolor{
+    color: #696969;
+}
+.btop{
+    border-top: solid 1px #DCDCDC;
+}
+.bbottom{
+    border-bottom: solid 1px #DCDCDC;
+}
+.hov7:hover{
+    border-bottom: solid 2px #696969;
+}
+.customfont2{
+    font-size: 13px;
+}
+.list-title{
+    color: #696969;
+}
