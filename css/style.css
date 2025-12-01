@@ -42,7 +42,7 @@
     height: 80px;
     background-color: #ECECEC;
 }
-.hov3{
+.hov3 img, .hov3 p,.hov3 h5 {
     transition: normal 0.5s ease 0s ;
     transition-property: transform;
     transform-origin: center;
@@ -58,7 +58,7 @@ h5{
     background-color: #ECECEC;
 }
 .hov3:hover img{
-    transform: scale(1.08);
+    transform: scale(1.02);
 }
 .hov4{
     transition: normal 0.5s ease 0s ;
@@ -68,9 +68,6 @@ h5{
 }
 .hov4:hover{
     background-color: #ECECEC;
-}
-.hov4:hover img{
-    transform: scale(1.03);
 }
 .row12{
     background-color: #FAFAFA;  
