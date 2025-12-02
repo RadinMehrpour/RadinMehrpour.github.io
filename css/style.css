@@ -1,6 +1,18 @@
 *{
-    font-family: sans-serif;
+    font-family: 'msi';
 }
+@font-face {
+    font-family: 'msi';
+    src: url('../fonts/msi-icons.eot');
+    src: url('msi-icons.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/msi-icons.woff2') format('woff2'),
+        url('../fonts/msi-icons.woff') format('woff'),
+        url('../fonts/msi-icons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .row1{
     height: 76.4px;
     img{

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'msi-icons';
+    src: url('msi-icons.eot');
+    src: url('msi-icons.eot?#iefix') format('embedded-opentype'),
+        url('msi-icons.woff2') format('woff2'),
+        url('msi-icons.woff') format('woff'),
+        url('msi-icons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
